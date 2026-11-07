@@ -15,7 +15,7 @@
 
 ## GitHub Pages 배포
 1. GitHub에서 새 Repository를 만듭니다. 예: `usagi-supplement-diary`
-2. 이 폴더 안의 파일과 폴더를 Repository 최상위에 업로드합니다.
+2. `index.html`과 `assets/` 폴더를 Repository 최상위에 업로드합니다.
 3. Repository의 **Settings → Pages**로 이동합니다.
 4. **Build and deployment**에서 `Deploy from a branch`를 선택합니다.
 5. Branch `main`, 폴더 `/(root)`를 선택하고 저장합니다.
@@ -37,4 +37,4 @@ GitHub Pages는 정적 호스팅이므로 비밀키나 관리자 키를 프론�
 
 
 ## 캐릭터 이미지
-사용자가 제공한 투명 PNG 7장을 `images/` 폴더에 보관하며, 헤더·빈 화면·타임라인 등에 실제 이미지로 표시합니다. 이미지 경로는 GitHub Pages 호환 상대경로입니다.
+사용자가 제공한 투명 PNG 7장을 `assets/images/` 폴더에 보관하며, 헤더·빈 화면·타임라인 등에 실제 이미지로 표시합니다. 이미지 경로는 GitHub Pages 호환 상대경로입니다.
